@@ -21,7 +21,7 @@ const Header = () => {
                 <SearchIcon className="search-icon"/>
             </div>
             <div className="header-right">
-                <MicIcon className="header-icons" />
+                <MicIcon className="header-icons microphone" />
                 <VideoCallIcon className="header-icons"/>
                 <AppsIcon className="header-icons"/>
                 <AccountCircleIcon className="header-icons"/>
