@@ -1,9 +1,14 @@
 import React from 'react';
+import logo from './../../Images/logo-yt.png'
+import MenuIcon from '@material-ui/icons/Menu';
 
 const Header = () => {
     return (
         <div>
-            <h1>This is Header.</h1>
+            <div className="header-left">
+                <MenuIcon/>
+                <img src={logo} alt="" />
+            </div>
         </div>
     );
 };
